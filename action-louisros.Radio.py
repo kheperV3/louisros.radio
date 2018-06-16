@@ -28,8 +28,8 @@ def read_configuration_file(configuration_file):
 
 
 def setStation_callback(hermes, intentMessage):   
-    conf = read_configuration_file(CONFIG_INI)
-    """"sl = {'RFI' : '0','France Culture': '1','FIP':'2', 'RMC':'3','RTL':'4','France Info':'5','Radio Classic':'6','France Musique':'7',\
+    """conf = read_configuration_file(CONFIG_INI)
+    sl = {'RFI' : '0','France Culture': '1','FIP':'2', 'RMC':'3','RTL':'4','France Info':'5','Radio Classic':'6','France Musique':'7',\
           'Jazz Radio':'8','Europe1':'9','Sud Radio':'10','France Inter':'11','Frequence Jazz':'12','Latina':'13','Le Mouv':'14',\
           'Euro News':'15','Radio Grenouille':'16'}
     """
